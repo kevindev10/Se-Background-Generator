@@ -1,0 +1,22 @@
+{
+  "name": "se-background-generator",
+  "version": "1.0.0",
+  "description": "\"Se\" = Second edition. The second coming of  Background-Generator.",
+  "main": "BGJs.js",
+  "scripts": {
+    "build": "browserify BGJs.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindev10/Se-Background-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevindev10/Se-Background-Generator/issues"
+  },
+  "homepage": "https://github.com/kevindev10/Se-Background-Generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

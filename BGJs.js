@@ -1,3 +1,10 @@
+
+var _ = require('lodash');
+//console.log(_);
+var array =['apple','banana','mango','orange','pineapple','strawberry']
+console.log(_.without(array,'mango'))
+
+
 var color1=document.getElementById("color1");
 var color2=document.getElementById("color2");
 var body =document.getElementById("body");
